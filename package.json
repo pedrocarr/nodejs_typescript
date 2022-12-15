@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/main/api",
+    "clean": "rimraf dist",
     "build": "rimraf dist && tsc -p tsconfig-build.json",
     "prepare": "husky install",
     "check": "npm-check -s -u",

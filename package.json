@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/pedrocarr/nodejs_typescript#readme",
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/jest": "^29.2.2",
     "@types/module-alias": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
@@ -49,6 +50,7 @@
   },
   "dependencies": {
     "@types/node": "^18.11.9",
+    "axios": "^1.2.1",
     "module-alias": "^2.2.2",
     "rimraf": "^3.0.2"
   }

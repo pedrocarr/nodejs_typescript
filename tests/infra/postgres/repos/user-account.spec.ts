@@ -16,12 +16,12 @@ class PgUserAccountRepository implements LoadUserAccountRepository {
   }
 }
 
-@Entity({ name: 'users' })
+@Entity({ name: 'usuarios' })
 class PgUser {
   @PrimaryGeneratedColumn()
     id!: number
 
-  @Column({ nullable: true })
+  @Column({ name: 'nome', nullable: true })
     name?: string
 
   @Column()
